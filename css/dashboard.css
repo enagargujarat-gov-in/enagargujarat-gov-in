@@ -1,0 +1,276 @@
+.card {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: #333;
+    background: #fff;
+    width: 100%;
+}
+.card {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+}
+.card, .input-group-btn>.btn {
+    border: 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+.card, .card-deck {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+}
+
+.card{
+    display: -webkit-box;
+    display: -ms-flexbox;
+}
+.card {
+    font-size: .875rem;
+    box-shadow: 1px 2px 18px grey;
+}
+.card.card-stats .card-header.card-header-icon, .card.card-stats .card-header.card-header-text {
+    text-align: right;
+}
+.card [class*=card-header-] {
+    margin: 0 15px;
+    padding: 0;
+    position: relative;
+}
+.card .card-header {
+    z-index: 3!important;
+}
+.card .card-header {
+    border-bottom: none;
+    background: 0 0;
+}
+.card .card-header .title, .card [class*=card-header-], .card [class*=card-header-] .card-title, .card [class*=card-header-] .card-title a, .card [class*=card-header-] .icon i, .card[class*=bg-], .card[class*=bg-] .card-title, .card[class*=bg-] .card-title a, .card[class*=bg-] .icon i {
+    color: #fff;
+}
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+.card-header {
+    border-bottom: 1px solid #eee;
+}
+.card-header, .card-subtitle, .card-text:last-child {
+    margin-bottom: 0;
+}
+.card-footer, .card-header {
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+}
+.card [class*=card-header-] .card-icon, .card [class*=card-header-] .card-text {
+    border-radius: 3px;
+    background-color: #999;
+    padding: 15px;
+    margin-top: -20px;
+    margin-right: 15px;
+    float: left;
+}
+.card .card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text) {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(255,152,0,.4);
+}
+.card .card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text), .card.bg-warning, .card.card-rotate.bg-warning .back, .card.card-rotate.bg-warning .front {
+    background: linear-gradient(60deg,#ffa726,#fb8c00);
+}
+.card.card-stats .card-header i {
+    font-size: 36px;
+    line-height: 56px;
+    width: 56px;
+    height: 56px;
+    text-align: center;
+}
+.card .card-header.card-header-icon i, .card .card-header.card-header-text i {
+        width: 70px;
+    height: 70px;
+    text-align: center;
+        line-height: 70px;
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.card.card-stats .card-header .card-category:not([class*=text-]) {
+    color: #999;
+    font-size: 16px;
+}
+.card.card-stats .card-header .card-icon+.card-category, .card.card-stats .card-header .card-icon+.card-title {
+    padding-top: 10px;
+}
+.card.card-stats .card-header .card-category {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.card.card-stats .card-header .card-category, .card.card-stats .card-header .card-title {
+    margin: 0;
+}
+.card .card-header .card-category {
+    margin: 0;
+}
+.card [class*=card-header-] .author a, .card [class*=card-header-] .card-category, .card [class*=card-header-] .card-description, .card [class*=card-header-] .stats, .card[class*=bg-] .author a, .card[class*=bg-] .card-category, .card[class*=bg-] .card-description, .card[class*=bg-] .stats {
+    color: rgba(255,255,255,.8);
+}
+.card .card-category:not([class*=text-]), .card .card-footer .stats {
+    color: #999;
+}
+.card .card-category {
+    margin-top: 10px;
+}
+.card.card-stats .card-header .card-category, .card.card-stats .card-header .card-title {
+    margin: 0;
+}
+.card .card-header.card-header-icon .card-title, .card .card-header.card-header-text .card-title {
+    margin-top: 15px;
+    color: #3C4858;
+}
+.card .card-header .title, .card [class*=card-header-], .card [class*=card-header-] .card-title, .card [class*=card-header-] .card-title a, .card [class*=card-header-] .icon i, .card[class*=bg-], .card[class*=bg-] .card-title, .card[class*=bg-] .card-title a, .card[class*=bg-] .icon i {
+    color: #fff;
+}
+.card .card-title:last-child {
+    margin-bottom: 0;
+}
+.card .card-title {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+.card-title, .card-title a, .footer-big h4, .footer-big h4 a, .footer-big h5, .footer-big h5 a, .footer-brand, .footer-brand a, .info-title, .info-title a, .media .media-heading, .media .media-heading a, .title, .title a {
+    color: #3C4858;
+    text-decoration: none;
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.card.card-stats .card-header+.card-footer {
+/*     border-top: 1px solid #eee; */
+    margin-top: 14px;
+}
+.card .card-body+.card-footer, .card .card-footer {
+    padding: 10px 0 0;
+    margin: 0 15px 10px;
+    border-radius: 0;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+        font-size: 16px;
+}
+/* .card .card-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: transparent;
+    border: 0;
+} */
+/* .card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+.card-footer {
+    border-top: 1px solid #eee;
+}
+.card-footer, .card-header {
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+}
+ */
+.card .card-header-success .card-icon, .card .card-header-success .card-text, .card .card-header-success:not(.card-header-icon):not(.card-header-text) {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(76,175,80,.4);
+}
+
+.card .card-header-success .card-icon, .card .card-header-success .card-text, .card .card-header-success:not(.card-header-icon):not(.card-header-text), .card.bg-success, .card.card-rotate.bg-success .back, .card.card-rotate.bg-success .front {
+    background: linear-gradient(60deg,#66bb6a,#43a047);
+}
+
+.card .card-header-danger .card-icon, .card .card-header-danger .card-text, .card .card-header-danger:not(.card-header-icon):not(.card-header-text) {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(244,67,54,.4);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(244,67,54,.4);
+}
+
+.card .card-header-danger .card-icon, .card .card-header-danger .card-text, .card .card-header-danger:not(.card-header-icon):not(.card-header-text), .card.bg-danger, .card.card-rotate.bg-danger .back, .card.card-rotate.bg-danger .front {
+    background: linear-gradient(60deg,#ef5350,#e53935);
+}
+.card .card-header-info .card-icon, .card .card-header-info .card-text, .card .card-header-info:not(.card-header-icon):not(.card-header-text) {
+    -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14), 0 7px 10px -5px rgba(0,188,212,.4);
+}
+.card .card-header-info .card-icon, .card .card-header-info .card-text, .card .card-header-info:not(.card-header-icon):not(.card-header-text), .card.bg-info, .card.card-rotate.bg-info .back, .card.card-rotate.bg-info .front {
+    background: linear-gradient(60deg,#26c6da,#00acc1);
+}
+.card .card-body+.card-footer .stats, .card .card-footer .stats {
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+}
+.card .card-footer .author, .card .card-footer .stats {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.card .card-category:not([class*=text-]), .card .card-footer .stats {
+    color: #999;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    border-left: none !important;
+}
+.card .table tr:first-child td {
+    border-top: none;
+}
+.card .table {
+    margin-bottom: 0;
+    border: none;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+{
+	   text-align: unset;
+	    font-size: 14px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+{
+	text-align: left !important;
+}
+.card .card-header .shrt_name
+{
+	color: grey;
+	font-size: 14px;
+    padding: 2px;
+}
+.dashboard-indicators
+{
+	bottom: 0;
+}
