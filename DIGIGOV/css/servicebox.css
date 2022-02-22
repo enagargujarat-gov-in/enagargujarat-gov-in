@@ -1,0 +1,491 @@
+.box-size
+{
+	height:140px;
+}
+.color-green
+{
+	color:#558B2F
+}
+.color-pink
+{
+	color:#AD1457
+}
+.color-violet
+{
+	color:#6A1B9A
+}
+.color-purple
+{
+	color:#4527A0
+}
+.color-indigo
+{
+	color:#283593
+}
+.color-blue
+{
+	color:#0277BD
+}
+.color-teal
+{
+	color:#00796B
+}
+.color-orange
+{
+	color:#EF6C00
+}
+.color-brown
+{
+	color:#4E342E
+}
+.color-gray
+{
+	color:#444444
+}
+.color-slate
+{
+	color:#37474F
+}
+
+.carousel-inner>.item>img
+{
+	height:600px;
+	width:100%;
+}
+.c-font-white {
+    color: #FFFFFF !important;
+}
+
+.c-font-45 {
+    font-size: 45px;
+}
+
+.c-font-uppercase {
+    text-transform: uppercase;
+}
+
+.c-font-bold {
+    font-weight: 600 !important;
+}
+@media screen and (min-width: 769px)
+{
+	.carousel-caption
+	{
+		top:25%;
+	}
+}
+@media (max-width: 768px)
+{
+	.carousel-inner>.item>img
+	{
+		height:300px;
+		width:100%;
+	}
+	.c-font-45
+	{
+		font-size: 22px;
+	}
+}
+.custom-nav>li>a
+{
+	padding:10px;
+	height:65px;
+	color:#000;
+	font-weight:800;
+}
+.custom-nav>li>a
+{
+	padding: 10px 16px;
+	line-height:3.5;
+}
+.tab-content>.custom-pane
+{
+	padding:15px;
+}
+
+
+p.spacing
+{
+	margin: 10px 0 10px;
+}
+.fa-inverse
+{
+	top:0px;
+}
+
+.circle:hover .border
+{
+	width:75px;
+	height:75px;
+	display:inline-block;
+	border: 2px dashed gray;
+	border-radius:50%;
+	
+	-webkit-animation-name: Rotate;
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-name: Rotate;
+	-moz-animation-duration: 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-ms-animation-name: Rotate;
+	-ms-animation-duration: 2s;
+	-ms-animation-iteration-count: infinite;
+	-ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes Rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@-moz-keyframes Rotate {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes Rotate {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+.my-carousel-indicators
+{
+	position: relative;
+	z-index: 15;
+    width: 100%;
+	left: 0%;	
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+	margin-left: 0%;
+	padding-top: 30px;
+}
+.my-carousel-indicators li
+{
+	border: 1px solid gray;
+	
+}
+.carousel-indicators .active
+{
+	background-color:#00796B
+}
+.custom-menu-carousel-control
+{
+	width: 0%;
+	background-image:none;
+	
+}
+.custom-menu-carousel-indicators
+{
+	position: relative;
+	width:100%;
+	left:0;
+	margin-left: 0%;
+	bottom: 0;
+}
+.custom-menu-carousel-indicators li
+{
+	border: 1px solid gray;
+}
+.carousel:hover {
+  cursor: move
+}
+/*Service data*/
+.serviceBox{ margin-top: 10px; }
+.serviceBox .title{
+    font-size: 20px;
+    color: #5054a2;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+.serviceBox .service-content{
+    padding: 25px 20px 25px 50px;
+    border-top: 2px solid #eee;
+    border-right: 2px solid #eee;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-content{
+    border-top-color: #4aba8d;
+    border-right-color: #4aba8d;
+}
+.serviceBox .service-content:before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: #eee;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-content:before{
+    width: 50%;
+    background: #4aba8d;
+}
+.serviceBox .description{
+    font-size: 14px;
+    color: #8b8a8a;
+    line-height: 25px;
+    margin: 0;
+}
+.serviceBox .service-icon{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    font-size: 25px;
+    color: #a6a6a6;
+    border: 1px solid #eee;
+    position: absolute;
+    top: -25px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+}
+.serviceBox:hover .service-icon{
+    border-color: #4aba8d;
+    color: #4aba8d;
+}
+@media only screen and (max-width:990px){
+	serviceBox{ margin-bottom: 30px; }
+}
+.appBox{ text-align: center; }
+.appBox .service-icon{
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background: #3f51b5;
+    margin-bottom: 15px;
+}
+.appBox .service-icon i{
+    font-size: 35px;
+    color: #fff;
+    line-height: 75px;
+    transition: all 0.3s ease 0s;
+}
+.appBox:hover .service-icon i{
+    transform: rotateY(180deg);
+}
+.appBox .title{
+    display: block;
+    width: 190px;
+    font-size: 24px;
+    color: #433b3b;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #175faa;
+    padding-bottom: 20px;
+    margin: 0 auto 20px;
+    position: relative;
+}
+.appBox .title:before,
+.appBox .title:after{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #175faa;
+    margin: 0 -5px 0 0;
+    position: absolute;
+    bottom: -5px;
+    right: 50%;
+    transition: all 0.4s ease 0s;
+}
+.appBox .title:before{
+    left: 50%;
+    margin: 0 0 0 -5px;
+}
+.appBox:hover .title:before{ left: 100%; }
+.appBox:hover .title:after{ right: 100%; }
+.appBox .description{
+    font: 12px;
+    color: #808080;
+    line-height: 27px;
+    padding: 0 15px;
+    margin: 0;
+}
+/************************************* all css are in servicebox.css file *************************************/
+.custom-top{
+    padding-top: 80px;
+}
+.scrollble-horizontal-menu
+{
+	height:200px;
+}
+
+
+#navbar-main .navbar-fixed-top {
+    min-height: 80px;
+}
+
+#navbar-main .navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+#navbar-main.shrink .navbar-nav > li > a {
+	line-height: 50px;
+}
+#navbar-main .navbar-header .custom-Logo {
+    padding: 5px 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out ;
+}
+#navbar-main .navbar-header .custom-Logo>img {
+    height: 70px;
+    margin-top: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out ;
+}
+#navbar-main.shrink .navbar-header .custom-Logo {
+    padding: 0px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out ;
+}
+#navbar-main.shrink .navbar-header .custom-Logo>img {
+    height: 50px;
+    margin-top: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+  	-moz-transition: all 0.3s ease-in-out ;
+}
+
+@media only screen and (max-width:990px){
+    .appBox{ margin-bottom: 30px; }
+}
+#navbar-second
+{
+	box-shadow: 2px 2px 12px grey;
+    z-index: 1;
+}
+@media only screen and (max-width: 768px) {
+	.navbar-inverse .navbar-nav>.active>a:after
+	{
+		background-color:#3f51b5;
+	}
+	.navbar-nav>li>a .caret
+	{
+		padding-top: 15px;
+    	padding-bottom: 15px;
+	}
+	#navbar-mobile .scrollble-horizontal-menu{height:100%}
+	#navbar-mobile .collapsing, .in {background-color: #f7f7f7;}
+	#navbar-mobile .collapsing ul, .in ul{background-color: #f7f7f7!important;}
+	#navbar-mobile .collapsing ul li a, .in ul li a {color: #555!important;}
+	#navbar-mobile .collapsing ul li a:hover, .in ul li a:hover {color: #000 !important;background-color: #eee!important;transition:400ms;}
+	#navbar-mobile h6 {color: #000};
+	
+	
+	#navbar-main.shrink .navbar-header .custom-Logo{
+	    padding: 0px 20px;
+	    -webkit-transition: all 0.3s ease-in-out;
+  		-moz-transition: all 0.3s ease-in-out ;
+	}
+	#navbar-main .navbar-header .custom-Logo
+	{
+		padding: 0px 20px;
+		-webkit-transition: all 0.3s ease-in-out;
+  		-moz-transition: all 0.3s ease-in-out ;
+	}
+	#navbar-main.shrink .navbar-header .custom-Logo>img {
+	    height: 50px;
+	    margin-top: 0px;
+	    -webkit-transition: all 0.3s ease-in-out;
+  		-moz-transition: all 0.3s ease-in-out ;
+	}
+	#navbar-main .navbar-header .custom-Logo>img
+	{
+		height: 50px;
+	    margin-top: 0px;
+	    -webkit-transition: all 0.3s ease-in-out;
+  		-moz-transition: all 0.3s ease-in-out ;
+	}
+	#navbar-main .navbar-fixed-top {
+    	min-height: 50px;
+	}
+	
+	#navbar-main .navbar-nav > li > a {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	    line-height: 50px;
+	}
+	.custom-Logo {
+	    padding: 0px 30px;
+	    -webkit-transition: all 0.3s ease-in-out;
+  		-moz-transition: all 0.3s ease-in-out ;
+	}
+	.custom-Logo>img {
+	    height: 30px;
+	    margin-top: 0px;
+	    -webkit-transition: all 0.3s ease-in-out;
+  		-moz-transition: all 0.3s ease-in-out ;
+	}
+	.custom-top
+	{
+		padding-top: 0px;
+	}
+}
+
+/************************************* all css are in servicebox.css file *************************************/
+
+
+
+/************************************* Added for Arrow *************************************/
+#return-to-top {
+    position: fixed;
+    z-index:16;
+    box-shadow:2px 2px 18px #eee;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+/************************************* Added for Arrow *************************************/
