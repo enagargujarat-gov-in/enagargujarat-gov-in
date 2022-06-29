@@ -3286,12 +3286,3 @@ textarea.uniform:focus {
   vertical-align:middle;
   cursor:pointer;
 }
-.x {
-    border: 1px solid red;
-    border-radius: 50%;
-    position: absolute;
-    background: white;
-    color: red;
-    top: -10px;
-    right: -10px;
-}
