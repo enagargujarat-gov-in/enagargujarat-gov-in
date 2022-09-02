@@ -1,13 +1,6 @@
 <html>
     <head>
-        <script>
-            const params = new URLSearchParams(location.search);
-            var receiptNumber = window.atob(params.get('qr'));
-            if(receiptNumber.indexOf('Payment') >= 0){
-                <a data-permalink-href="C:\Users\NIKHIL GOYANI\Documents\GitHub\pdf\Payment_Receipt_O1116BPM2223003801.pdf" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link " >
-                </a>
-             }
-        </script>
+        
         <style>
             body{
                 background-color: aliceblue;
@@ -15,6 +8,13 @@
         </style>
     </head>
     <body>
-        
+        <script>
+            const params = new URLSearchParams(location.search);
+            var receiptNumber = window.atob(params.get('receiptNumber'));
+            if(receiptNumber.indexOf('Payment') >= 0){
+                <a data-permalink-href="C:\Users\NIKHIL GOYANI\Documents\GitHub\pdf\Payment_Receipt_O1116BPM2223003801.pdf" id="raw-url" data-view-component="true" class="js-permalink-replaceable-link" >
+                </a>
+             }
+        </script>
     </body>
 </html>
