@@ -1,11 +1,25 @@
 <html>
-    <body>
-        <script>
-            const params = new URLSearchParams(location.search);
-            var qr = window.atob(params.get('qr'));
-            if(qr.indexOf('Payment') >= 0){
-                
-             }
-        </script>
-    </body>
+
+<head>
+
+</head>
+
+<body>
+    <div id="linkId" style="display:none">
+    </div>
+    <script>
+        const params = new URLSearchParams(location.search);
+        var qr = window.atob(params.get('qr'));
+        if (qr.indexOf('Payment') >= 0) {
+            //UGF5bWVudF9SZWNlaXB0X08xMTE2QlBNMjIyMzAwMzgwMS5wZGY=
+            document.getElementById("linkId").innerHTML +=
+                `<a target="_blank" href="https://github.com/enagargujarat-gov-in/enagargujarat-gov-in.github.io/raw/main/pdf/${qr}" 
+                id="raw-url">sss</a>`;
+
+            var element = document.getElementById('raw-url');
+            element.click();
+        }
+    </script>
+</body>
+
 </html>
