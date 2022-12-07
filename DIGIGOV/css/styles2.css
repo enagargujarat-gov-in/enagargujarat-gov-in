@@ -66,3 +66,7 @@
 .content{
   background-color: #D5D3D3;
 }
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
